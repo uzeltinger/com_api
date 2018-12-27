@@ -9,6 +9,9 @@
 	<authorUrl>https://techjoomla.com</authorUrl>
 	<version>2.2</version>
 	<description>Multi-purpose REST API framework for Joomla</description>
+	<updateservers>    
+    	<server type="extension" priority="1" name="API Component Updates">http://www.diportal.com.ar/updates/api/com_api.xml</server>
+	</updateservers>  
 	<install>
 		<!-- Runs on install -->
 		<sql>
